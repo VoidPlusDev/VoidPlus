@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>VoidPlus Repository</title>
+
+<style>
+body{
+    background:#111;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+    padding:30px;
+}
+
+h1{
+    color:#00ff88;
+}
+
+.code{
+    background:#222;
+    padding:15px;
+    border-radius:10px;
+    margin:20px auto;
+    max-width:800px;
+    word-wrap:break-word;
+}
+
+button{
+    background:#00aa55;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#00cc66;
+}
+</style>
+</head>
+
+<body>
+
+<h1>VoidPlus Repository</h1>
+
+<p>Install VoidPlus Repo in Termux</p>
+
+<div class="code" id="cmd">
+curl -fsSL https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/main/install.sh | bash
+</div>
+
+<button onclick="copyCmd()">📋 Copy Command</button>
+
+<p id="msg"></p>
+
+<script>
+function copyCmd(){
+
+let cmd =
+"curl -fsSL https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/main/install.sh | bash";
+
+navigator.clipboard.writeText(cmd);
+
+document.getElementById("msg").innerHTML =
+"✅ Command Copied!";
+}
+</script>
+
+</body>
+</html>

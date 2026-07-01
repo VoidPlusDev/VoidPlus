@@ -2,7 +2,7 @@
 
 #mkdir -p $PREFIX/etc/apt/sources.list.d
 
-echo "deb [trusted=yes] https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/refs/heads/main  voidplus main" > $PREFIX/etc/apt/sources.list.d/voidplus.list
+echo "deb [trusted=yes] https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/refs/heads/main  voidplus main" > $PREFIX/etc/apt/sources.list
 yes | apt install wget 
 wget https://github.com/VoidPlusDev/VoidPlus/blob/main/VoidPlus.key
 

@@ -3,27 +3,41 @@ Version: 1.0
 Architecture: aarch64
 Maintainer: Abhay
 Depends: libandroid-spawn, libandroid-sysv-semaphore
-Description: Custom Box64 build for Termux
-Filename: dists/voidplus/main/binary-aarch64/box64-package.deb
+Filename: ./box64-package.deb
 Size: 8170224
-MD5Sum: dd80369511caa99c946ed1f398ab2968
+MD5sum: dd80369511caa99c946ed1f398ab2968
 SHA1: 102369f89eb4f79d76edae3c86d0ea48afe78a26
 SHA256: 4bee914be2a6242ad434d495a7c0b6a25d5e2c8581e79a669ca42f4b0311331a
-SHA512: 0d740390c8f0f91fde47682b6a27f9e7433d86a573a4165f967daefd74b4e4a97b9aca3334b33178a3fb3010ec0b5f053b4dfccb31d5aaba57a6fe36ce9d68b4
+Description: Custom Box64 build for Termux
+
+Package: parrot
+Version: 1.0
+Architecture: all
+Maintainer: Abhay kumar
+Depends: wget, proot, tar, openssl-tool, axel
+Filename: ./parrot.deb
+Size: 1908
+MD5sum: e228b4dcbebb99b69364250305d0fb75
+SHA1: 1310f6d960a5379de0022b24b1c9095c9f5779d6
+SHA256: cc08261561273c1cfabc0e2806ba2281e39a66b400992d93ec01f96808d52de7
+Section: utils
+Priority: optional
+Description: Parrot OS installer for Termux
+ Downloads and installs a Parrot OS root filesystem
+ and creates a launcher script for running it in proot.
 
 Package: ransomux
 Version: 1.0
 Architecture: aarch64
-Maintainer: Abhay 
-Depends: git, libxml2, openjdk-17, apkeditor, apksigner, file, which 
+Maintainer: Abhay
+Depends: git, libxml2, openjdk-17, apkeditor, apksigner, file, which
+Filename: ./ransomux.deb
+Size: 1220
+MD5sum: 4092d1975eca23913571a33f58f1b31d
+SHA1: 05f23aa75d7aa6b3d120aef90906f4196daebce2
+SHA256: aa293a2e50702133d351dfe44ee6821fb75ab85feb44141c6b708b00553c2391
 Section: security
 Priority: optional
 Homepage: https://voidplusdev.github.io/VoidPlus/
 Description: Ramsomware making tool
-Filename: dists/voidplus/main/binary-aarch64/ransomux.deb
-Size: 1220
-MD5Sum: 4092d1975eca23913571a33f58f1b31d
-SHA1: 05f23aa75d7aa6b3d120aef90906f4196daebce2
-SHA256: aa293a2e50702133d351dfe44ee6821fb75ab85feb44141c6b708b00553c2391
-SHA512: b05dff68497af2b3ddf7b57abaa8ee0b76a1ee763363b99011e0bfcef9bdfbe066693212bd61473cb66d8d32b57b7d433f8e335c740c7aed7e506fc29092feca
 

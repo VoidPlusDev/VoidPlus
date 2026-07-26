@@ -34,3 +34,17 @@ SHA1: 1310f6d960a5379de0022b24b1c9095c9f5779d6
 SHA256: cc08261561273c1cfabc0e2806ba2281e39a66b400992d93ec01f96808d52de7
 SHA512: 7effd334a4dc3bacf6023b996704e743212b34680b3d7aa60506cdda50ba6efd99aad530119185af6902cd61b8e7db0e8fae766734e9ff4e8974977d9af0f55f
 
+Package: voidplus
+Version: 1.0
+Architecture: all
+Maintainer: Abhay kumar
+Depends: grep, coreutils, ncurses
+Description: VoidPlus Package Manager
+ Colorful package manager for the VoidPlus repository.
+Filename: dists/voidplus/main/binary-all/vp.deb
+Size: 1560
+MD5Sum: 85b2dc3e2f1ea43aa2acca0fc6733ac0
+SHA1: 01050658aff63cd0965cf54d7aeb62d003522f58
+SHA256: 60696664dea6310952e9f1e0799303c7f062b59662fd595fd1e840baf1ba9844
+SHA512: 230d0c1f2318b1d88bf0483abc6be2a0413dad28984acac240f5a4d34d4f3a49d14c6d7e66d4bf46bb8d8fedeae11abf46e478de52e575cb78daae750f4bff31
+

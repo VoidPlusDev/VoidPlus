@@ -23,10 +23,10 @@
 ---
 
 📥 Installation
-
+bash '''
 pkg update
 pkg install wget gnupg -y
-
+'''
 wget https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/main/install.sh
 
 chmod +x install.sh

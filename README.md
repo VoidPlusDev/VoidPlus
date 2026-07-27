@@ -22,14 +22,11 @@
 
 ---
 
-📥 Installation
 📥 Install VoidPlus
 
-pkg update && pkg upgrade -y
-pkg install wget gnupg -y
-wget https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/main/install.sh
-chmod +x install.sh
-./install.sh
+'''bash
+wget
+'''
 
 📦 Install Package
 

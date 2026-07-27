@@ -1,3 +1,20 @@
+Package: parrot
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Abhay kumar
+Depends: wget, proot, tar, openssl-tool, axel
+Description: Parrot OS installer for Termux
+ Downloads and installs a Parrot OS root filesystem
+ and creates a launcher script for running it in proot.
+Filename: dists/voidplus/main/binary-all/parrot.deb
+Size: 1908
+MD5Sum: e228b4dcbebb99b69364250305d0fb75
+SHA1: 1310f6d960a5379de0022b24b1c9095c9f5779d6
+SHA256: cc08261561273c1cfabc0e2806ba2281e39a66b400992d93ec01f96808d52de7
+SHA512: 7effd334a4dc3bacf6023b996704e743212b34680b3d7aa60506cdda50ba6efd99aad530119185af6902cd61b8e7db0e8fae766734e9ff4e8974977d9af0f55f
+
 Package: voidplus
 Version: 1.0
 Architecture: all

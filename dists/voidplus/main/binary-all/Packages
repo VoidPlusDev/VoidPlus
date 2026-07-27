@@ -42,9 +42,9 @@ Depends: grep, coreutils, ncurses
 Description: VoidPlus Package Manager
  Colorful package manager for the VoidPlus repository.
 Filename: dists/voidplus/main/binary-all/vp.deb
-Size: 1560
-MD5Sum: 85b2dc3e2f1ea43aa2acca0fc6733ac0
-SHA1: 01050658aff63cd0965cf54d7aeb62d003522f58
-SHA256: 60696664dea6310952e9f1e0799303c7f062b59662fd595fd1e840baf1ba9844
-SHA512: 230d0c1f2318b1d88bf0483abc6be2a0413dad28984acac240f5a4d34d4f3a49d14c6d7e66d4bf46bb8d8fedeae11abf46e478de52e575cb78daae750f4bff31
+Size: 2100
+MD5Sum: c4e2a0ca52ecfc7bd02857d89b1f2d41
+SHA1: d9cc3f1ad8099d78b85193de7aa221b975cfc36e
+SHA256: 9f96a5c2be1a5d0643aac03bde8b3b2018f49787baffed47cfcfe3031e7bd753
+SHA512: b194dbc99a6898007c28fc439a02f119cac84ef6b927ea197e6e1bd0f65137a959ff307a5b36759014d31d369dc9987fbe43c950a4c9f497f2df698a0cb7ac89
 

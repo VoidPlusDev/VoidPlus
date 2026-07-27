@@ -24,9 +24,15 @@
 
 📥 Install VoidPlus
 
-'''bash
-wget
-'''
+## Install
+
+```bash
+pkg update
+pkg install wget -y
+wget https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/main/install.sh
+chmod +x install.sh
+./install.sh
+```
 
 📦 Install Package
 

@@ -57,7 +57,8 @@ echo "======================================"
 echo "     VoidPlus Installed Successfully"
 echo "======================================"
 echo -e "${RESET}"
-
+# Add repository
+curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash
 echo
 echo -e "${CYAN}You can now install packages:${RESET}"
 echo

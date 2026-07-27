@@ -35,17 +35,14 @@ chmod +x install.sh
 ```
 
 📦 Install Package
-
+```bash
 apt install box64-custom
-
-🔄 Update Packages
-
-apt update && apt upgrade -y
+```
 
 🗑 Remove Package
-
+```bash
 apt remove box64-custom
-
+```
 ---
 
 📦 Available Packages
@@ -60,26 +57,21 @@ kali-nethunter| Kali NetHunter CLI
 ---
 
 🚀 Install a Package
-
+```bash
 apt install <package-name>
-
+```
 Example
-
+```bash
 apt install box64-custom
+```
 
----
-
-🔄 Update Repository
-
-apt update
-apt upgrade
 
 ---
 
 🗑 Remove Package
-
+```bash
 apt remove <package-name>
-
+```
 ---
 
 🌐 Repository

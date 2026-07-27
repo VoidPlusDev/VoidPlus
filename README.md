@@ -23,15 +23,25 @@
 ---
 
 📥 Installation
-bash '''
-pkg update
+📥 Install VoidPlus
+
+pkg update && pkg upgrade -y
 pkg install wget gnupg -y
-'''
 wget https://raw.githubusercontent.com/VoidPlusDev/VoidPlus/main/install.sh
-
 chmod +x install.sh
-
 ./install.sh
+
+📦 Install Package
+
+apt install box64-custom
+
+🔄 Update Packages
+
+apt update && apt upgrade -y
+
+🗑 Remove Package
+
+apt remove box64-custom
 
 ---
 

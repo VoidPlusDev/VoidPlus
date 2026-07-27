@@ -1,39 +1,3 @@
-Package: Kali-nethunter
-Version: 2025.4
-Architecture: all
-Maintainer: Abhay kumar
-Depends: proot, tar, axel
-Section: net
-Priority: optional
-Homepage: https://www.kali.org/
-Description: Kali NetHunter Rootless Edition CLI
- NetHunter CLI provides command-line access to Kali NetHunter tools
- and packages without requiring root access. Enables penetration
- testing and security tools through PRoot environment integration.
-Filename: dists/voidplus/main/binary-all/Kali-nethunter.deb
-Size: 2152
-MD5Sum: 96147b99ea82e1cbc4482ae58480efd4
-SHA1: 23abaf6ccad795130aa2526744c91a2394af8b2e
-SHA256: 8fbdf8a5c980e5d9fe9669ef7a0fb4dc106e5bcceac03175a63b0e6d2e1f3733
-SHA512: ec3f69ec4f39c3777d7f13be7471d13357b00277301009b0d8f6bde34cf4c8194e1d9eda920263991d590dbbd77ccbd2a3f9017038874d3d42ad153ca1a73198
-
-Package: parrot
-Version: 1.0
-Section: utils
-Priority: optional
-Architecture: all
-Maintainer: Abhay kumar
-Depends: wget, proot, tar, openssl-tool, axel
-Description: Parrot OS installer for Termux
- Downloads and installs a Parrot OS root filesystem
- and creates a launcher script for running it in proot.
-Filename: dists/voidplus/main/binary-all/parrot.deb
-Size: 1908
-MD5Sum: e228b4dcbebb99b69364250305d0fb75
-SHA1: 1310f6d960a5379de0022b24b1c9095c9f5779d6
-SHA256: cc08261561273c1cfabc0e2806ba2281e39a66b400992d93ec01f96808d52de7
-SHA512: 7effd334a4dc3bacf6023b996704e743212b34680b3d7aa60506cdda50ba6efd99aad530119185af6902cd61b8e7db0e8fae766734e9ff4e8974977d9af0f55f
-
 Package: voidplus
 Version: 1.0
 Architecture: all
@@ -42,9 +6,9 @@ Depends: grep, coreutils, ncurses
 Description: VoidPlus Package Manager
  Colorful package manager for the VoidPlus repository.
 Filename: dists/voidplus/main/binary-all/vp.deb
-Size: 2100
-MD5Sum: c4e2a0ca52ecfc7bd02857d89b1f2d41
-SHA1: d9cc3f1ad8099d78b85193de7aa221b975cfc36e
-SHA256: 9f96a5c2be1a5d0643aac03bde8b3b2018f49787baffed47cfcfe3031e7bd753
-SHA512: b194dbc99a6898007c28fc439a02f119cac84ef6b927ea197e6e1bd0f65137a959ff307a5b36759014d31d369dc9987fbe43c950a4c9f497f2df698a0cb7ac89
+Size: 2176
+MD5Sum: aafd5bb63a198e9d55e61cbcd3546347
+SHA1: 8df14a219fbd8c114a066998d33bc06b6d59bc97
+SHA256: a12fa9899e4196ab984360852164b83e91349278693fd6b31be5780e2f5cdd20
+SHA512: 475aa26bd7d28121102e7016b8c75ae432fe7a51bbfee3df39a89ef8c01b5bb8bd458235807f222fd16a72cba6d06a8a6f252da0db05f844583033f9702c0786
 

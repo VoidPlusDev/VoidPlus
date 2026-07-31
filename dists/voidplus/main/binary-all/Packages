@@ -15,6 +15,19 @@ SHA1: 1310f6d960a5379de0022b24b1c9095c9f5779d6
 SHA256: cc08261561273c1cfabc0e2806ba2281e39a66b400992d93ec01f96808d52de7
 SHA512: 7effd334a4dc3bacf6023b996704e743212b34680b3d7aa60506cdda50ba6efd99aad530119185af6902cd61b8e7db0e8fae766734e9ff4e8974977d9af0f55f
 
+Package: run-c
+Version: 2.0
+Architecture: all
+Maintainer: Abhay kumar
+Depends: clang
+Description: Advanced C/C++ runner and project builder.
+Filename: dists/voidplus/main/binary-all/run-c.deb
+Size: 5028
+MD5Sum: 9534cba1b1085c68e4746b5372b27b8a
+SHA1: 032b077c4952b5d38557490cfbfb1279815de964
+SHA256: 6136dee39ef771a4289fd7531a3135b4b7c0c9037449797f94b87213864525f5
+SHA512: aa4b59fa936c4b817c05332732448d9d00b81209010f66e2644e943dcb3f26f233bab5dabd048d29ecd2f1187e7cb136e7b887f3838c6c13a4d702908d38f629
+
 Package: voidplus
 Version: 1.0
 Architecture: all
